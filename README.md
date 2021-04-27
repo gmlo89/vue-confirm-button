@@ -1,24 +1,21 @@
-# vue-confirm-button
+# vue-confirm-button-gmlo
 
-## Project setup
+# Installation 
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i --save vue-confirm-button-gmlo
 ```
 
-### Compiles and minifies for production
+# Usage 
 ```
-npm run build
+import VueConfirmButton from "vue-confirm-button-gmlo";
+
+Vue.component('VueConfirmButton', VueConfirmButton);
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+<vue-confirm-button dialog-title="Do you confirm delete this item?" />
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# License
+[MIT](https://github.com/sagalbot/vue-select/blob/master/LICENSE.md)
