@@ -1,5 +1,7 @@
 # vue-confirm-button-gmlo
 
+# This project is in development, it may not work correctly
+
 # Installation 
 ```
 npm i --save vue-confirm-button-gmlo
