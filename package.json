@@ -1,5 +1,5 @@
 {
-  "name": "vue-confirm-button",
+  "name": "vue-confirm-button-gmlo",
   "description": "Button to request confirm before execute an action",
   "version": "0.1.0",
   "private": false,
@@ -13,6 +13,14 @@
     "dist/*",
     "src/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmlo89/vue-confirm-button"
+  },
+  "bugs": {
+    "url": "https://github.com/gmlo89/vue-confirm-button/issues"
+  },
+  "homepage": "https://github.com/gmlo89/vue-confirm-button",
   "keywords": [
     "vue",
     "vue-button",
