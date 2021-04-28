@@ -11,8 +11,12 @@ export default {
 			required: true,
 			type: String,
 		},
-		confirmationText: {
+		dialogTitle: {
 			required: true,
+			type: String,
+		},
+		dialogText: {
+			required: false,
 			type: String,
 		},
         confirmButtonText: {
@@ -29,12 +33,12 @@ export default {
 	methods: {
 		confirm() {
 			Swal.fire({
-				title: this.confirmationText,
+				title: this.dialogTitle,
+                text: this.dialogText,
 				showCancelButton: true,
 				confirmButtonText: this.confirmButtonText,
 				cancelButtonText: this.cancelButtonText,
 			}).then((result) => {
-				/* Read more about isConfirmed, isDenied below */
 				if (result.isConfirmed) {
 					this.$emit("confirmed");
 				}

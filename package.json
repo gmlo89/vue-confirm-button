@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "sweetalert2": "^10.16.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -52,7 +51,8 @@
     "rollup": "^1.17.0",
     "@rollup/plugin-buble": "^0.21.3",
     "@rollup/plugin-commonjs": "^11.1.0",
-    "rollup-plugin-vue": "^5.0.1"
+    "rollup-plugin-vue": "^5.0.1",
+    "sweetalert2": "^10.16.6"
   },
   "eslintConfig": {
     "root": true,
