@@ -3,6 +3,7 @@
 # Introduction
 
 Button to request confirm before execute an action using [SweetAlert2](https://sweetalert2.github.io/ "SweetAlert2")
+[DEMO](https://codesandbox.io/s/sad-visvesvaraya-2qy5n?file=/src/App.vue)
 
 # Installation 
 ```JavaScript
