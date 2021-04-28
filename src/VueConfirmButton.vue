@@ -1,5 +1,5 @@
 <template>
-	<button type="button" @click="confirm">{{ buttonText }}</button>
+	<button type="button" @click="confirm"><slot></slot></button>
 </template>
 
 <script>
@@ -7,10 +7,6 @@ import Swal from "sweetalert2";
 export default {
 	name: "VueConfirmButton",
 	props: {
-		buttonText: {
-			required: true,
-			type: String,
-		},
 		dialogTitle: {
 			required: true,
 			type: String,

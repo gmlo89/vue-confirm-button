@@ -17,7 +17,7 @@ Vue.component('VueConfirmButton', VueConfirmButton);
 ```
 
 ```HTML
-<vue-confirm-button dialog-title="Do you confirm delete this item?" />
+<vue-confirm-button dialog-title="Do you confirm delete this item?">Delete</vue-confirm-button>
 ```
 
 
@@ -26,7 +26,6 @@ Vue.component('VueConfirmButton', VueConfirmButton);
 
 | Props                       | Type              | Required | Default                     |
 | --------------------------- | ----------------- | -------- | --------------------------- |
-| button-text                 | String            | yes      | -                           |
 | dialog-title                | String            | yes      | -                           |
 | dialog-text                 | String            | no       | -                           |
 | confirm-button-text         | String            | no       | "Yes"                       |
@@ -37,7 +36,7 @@ You can inherit attributes directly to the button, example:
 
 ```HTML
 <!-- Use bootstrap classes on button and disabled-->
-<vue-confirm-button class="btn btn-danger" disabled dialog-title="Do you confirm delete this item?" />
+<vue-confirm-button class="btn btn-danger" disabled dialog-title="Do you confirm delete this item?">Delete</vue-confirm-button>
 ```
 
 # Events
